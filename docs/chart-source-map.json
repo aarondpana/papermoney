@@ -1,0 +1,1722 @@
+[
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 1,
+    "slide": null,
+    "topic": "Cover",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": []
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 2,
+    "slide": "1",
+    "topic": "Bull flag breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-flag-1",
+      "cp-bull-flag-2",
+      "cp-calc-risk-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 3,
+    "slide": "1a",
+    "topic": "Bull flag example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-flag-1",
+      "cp-bull-flag-2",
+      "cp-calc-risk-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 4,
+    "slide": "1b",
+    "topic": "Bull flag across five- and one-minute charts",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-flag-1",
+      "cp-bull-flag-2",
+      "cp-calc-risk-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 5,
+    "slide": "1c",
+    "topic": "Bear flag one-minute examples",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-flag-1",
+      "cp-bear-flag-2",
+      "cp-calc-short-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 6,
+    "slide": "1d",
+    "topic": "Bear flag five-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-flag-1",
+      "cp-bear-flag-2",
+      "cp-calc-short-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 7,
+    "slide": "1f",
+    "topic": "Bull flags and flat tops",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-flag-1",
+      "cp-bull-flag-2",
+      "cp-calc-risk-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 8,
+    "slide": "1-1a",
+    "topic": "False breakout trap / flag false break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 9,
+    "slide": "1-1-b",
+    "topic": "Bull flag trap",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 10,
+    "slide": "1-1-b",
+    "topic": "Bull flag trap",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 11,
+    "slide": "2",
+    "topic": "Flat-top breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-flat-top-1",
+      "cp-flat-top-2",
+      "cp-calc-reward-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "flat-top"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 12,
+    "slide": "2a",
+    "topic": "Flat-top example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-flat-top-1",
+      "cp-flat-top-2",
+      "cp-calc-reward-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "flat-top"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 13,
+    "slide": "2b",
+    "topic": "Flat-top example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-flat-top-1",
+      "cp-flat-top-2",
+      "cp-calc-reward-share"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "flat-top"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 14,
+    "slide": "2c",
+    "topic": "Double top at whole dollar then break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-double-top-1",
+      "cp-double-top-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "double-top"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 15,
+    "slide": "2e",
+    "topic": "Flat-bottom breakdown",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-flat-bottom-1",
+      "cp-flat-bottom-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "flat-bottom"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 16,
+    "slide": "2f",
+    "topic": "Flat-bottom breakdown",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-flat-bottom-1",
+      "cp-flat-bottom-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "flat-bottom"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 17,
+    "slide": "3",
+    "topic": "Moving-average pullback",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ma-pullback-1",
+      "cp-ma-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ma-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 18,
+    "slide": "3a",
+    "topic": "Moving-average pullbacks",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ma-pullback-1",
+      "cp-ma-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ma-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 19,
+    "slide": "3b",
+    "topic": "Moving-average pullback entry",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ma-pullback-1",
+      "cp-ma-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ma-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 20,
+    "slide": "3c",
+    "topic": "Moving-average pop short",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ma-pop-short-1",
+      "cp-ma-pop-short-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ma-pop-short"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 21,
+    "slide": "4",
+    "topic": "ABCD flag",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-abcd-1",
+      "cp-abcd-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "abcd"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 22,
+    "slide": "4a",
+    "topic": "ABCD example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-abcd-1",
+      "cp-abcd-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "abcd"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 23,
+    "slide": "4b",
+    "topic": "ABCD example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-abcd-1",
+      "cp-abcd-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "abcd"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 24,
+    "slide": "4c",
+    "topic": "ABCD example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-abcd-1",
+      "cp-abcd-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "abcd"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 25,
+    "slide": "4d",
+    "topic": "ABCD stalled",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-abcd-stall-1",
+      "cp-abcd-stall-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "abcd-stall"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 26,
+    "slide": "5",
+    "topic": "Five-minute candle making a new high",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-five-minute-1",
+      "cp-five-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "five-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 27,
+    "slide": "5a",
+    "topic": "Reversal example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-five-minute-1",
+      "cp-five-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "five-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 28,
+    "slide": "5b",
+    "topic": "Consecutive five-minute candles",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-five-minute-1",
+      "cp-five-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "five-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 29,
+    "slide": "5c",
+    "topic": "Consecutive five-minute candles",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-five-minute-1",
+      "cp-five-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "five-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 30,
+    "slide": "7",
+    "topic": "Ascending support/resistance",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trendlines-1",
+      "cp-trendlines-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trendlines"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 31,
+    "slide": "7a",
+    "topic": "Ascending support and descending resistance",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trendlines-1",
+      "cp-trendlines-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trendlines"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 32,
+    "slide": "7b",
+    "topic": "Ascending support/resistance",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trendlines-1",
+      "cp-trendlines-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trendlines"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 33,
+    "slide": "7c",
+    "topic": "Ascending support/resistance",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trendlines-1",
+      "cp-trendlines-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trendlines"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 34,
+    "slide": "8",
+    "topic": "Head and shoulders",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-head-shoulders-1",
+      "cp-head-shoulders-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "head-shoulders"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 35,
+    "slide": "8a",
+    "topic": "Head and shoulders",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-head-shoulders-1",
+      "cp-head-shoulders-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "head-shoulders"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 36,
+    "slide": "9",
+    "topic": "Bull trap",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 37,
+    "slide": "9b",
+    "topic": "Bull trap",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 38,
+    "slide": "9c",
+    "topic": "Bull trap / false break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bull-trap-1",
+      "cp-bull-trap-2",
+      "cp-calc-drawdown"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bull-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 39,
+    "slide": "9e",
+    "topic": "Bull and bear traps",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-trap-1",
+      "cp-bear-trap-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-trap"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 40,
+    "slide": "10",
+    "topic": "Leading gapper",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-go-1",
+      "cp-gap-go-2",
+      "cp-calc-gap-size"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-go"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 41,
+    "slide": "10a",
+    "topic": "Gap and go at open",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-go-1",
+      "cp-gap-go-2",
+      "cp-calc-gap-size"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-go"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 42,
+    "slide": "10b",
+    "topic": "Gap and go at open",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-go-1",
+      "cp-gap-go-2",
+      "cp-calc-gap-size"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-go"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 43,
+    "slide": "11",
+    "topic": "Dip entries and breakouts",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-dip-break-1",
+      "cp-dip-break-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "dip-break"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 44,
+    "slide": "14",
+    "topic": "Good premarket chart",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-quality-1",
+      "cp-premarket-quality-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-quality"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 45,
+    "slide": "14a",
+    "topic": "Bad premarket chart",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-quality-1",
+      "cp-premarket-quality-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-quality"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 46,
+    "slide": "15",
+    "topic": "First one-minute pullback after red/green",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-first-pullback-1",
+      "cp-first-pullback-2",
+      "cp-calc-rr"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "first-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 47,
+    "slide": "15a",
+    "topic": "First one-minute pullback",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-first-pullback-1",
+      "cp-first-pullback-2",
+      "cp-calc-rr"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "first-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 48,
+    "slide": "15b",
+    "topic": "First pullback across timeframes",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-first-pullback-1",
+      "cp-first-pullback-2",
+      "cp-calc-rr"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "first-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 49,
+    "slide": "16",
+    "topic": "Break of premarket high",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-high-1",
+      "cp-premarket-high-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-high"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 50,
+    "slide": "16a",
+    "topic": "Premarket-high one-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-high-1",
+      "cp-premarket-high-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-high"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 51,
+    "slide": "16b",
+    "topic": "Premarket-high one-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-high-1",
+      "cp-premarket-high-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-high"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 52,
+    "slide": "16c",
+    "topic": "Premarket-high break and pullback",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-high-1",
+      "cp-premarket-high-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-high"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 53,
+    "slide": "17",
+    "topic": "Premarket pivot break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-pivot-1",
+      "cp-premarket-pivot-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-pivot"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 54,
+    "slide": "17a",
+    "topic": "Premarket pivot example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-premarket-pivot-1",
+      "cp-premarket-pivot-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "premarket-pivot"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 55,
+    "slide": "18",
+    "topic": "Whole- and half-dollar entries",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 56,
+    "slide": "18a",
+    "topic": "Whole-dollar fakeouts",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 57,
+    "slide": "18b",
+    "topic": "Whole/half-dollar example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 58,
+    "slide": "18c",
+    "topic": "Whole/half-dollar example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 59,
+    "slide": "18d",
+    "topic": "Whole-dollar micro pullback",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 60,
+    "slide": "18e",
+    "topic": "Whole-dollar resistance then break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 61,
+    "slide": "18f",
+    "topic": "Half-dollar resistance then break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-whole-half-1",
+      "cp-whole-half-2",
+      "cp-calc-half-dollar"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "whole-half"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 62,
+    "slide": "19",
+    "topic": "One-minute opening-range breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-opening-range-1",
+      "cp-opening-range-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. The diagram has premarket labeling despite its opening-range title; questions explicitly define their own six-bar regular-session opening range. The diagram has premarket labeling despite its opening-range title; questions explicitly define their own six-bar regular-session opening range.",
+    "relatedTopics": [
+      "opening-range"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 63,
+    "slide": "19a",
+    "topic": "Opening-range one-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-opening-range-1",
+      "cp-opening-range-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "opening-range"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 64,
+    "slide": "19b",
+    "topic": "Opening-range five-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-opening-range-1",
+      "cp-opening-range-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "opening-range"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 65,
+    "slide": "20",
+    "topic": "Red-to-green move",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-red-green-1",
+      "cp-red-green-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Prior-close reference is explicitly supplied in synthetic questions, not inferred from unlabeled source candles. Prior-close reference is explicitly supplied in synthetic questions, not inferred from unlabeled source candles.",
+    "relatedTopics": [
+      "red-green"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 66,
+    "slide": "20a",
+    "topic": "Red-to-green five-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-red-green-1",
+      "cp-red-green-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "red-green"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 67,
+    "slide": "20b",
+    "topic": "Red-to-green one-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-red-green-1",
+      "cp-red-green-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "red-green"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 68,
+    "slide": "21b",
+    "topic": "First pullback after VWAP break",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-pullback-1",
+      "cp-vwap-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 69,
+    "slide": "21c",
+    "topic": "First pullback after strength",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-pullback-1",
+      "cp-vwap-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 70,
+    "slide": "21c",
+    "topic": "VWAP breakout pullback",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-pullback-1",
+      "cp-vwap-pullback-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-pullback"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 71,
+    "slide": "21d",
+    "topic": "Inverted head and shoulders / pivot",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-inverse-1",
+      "cp-inverse-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "inverse"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 72,
+    "slide": "21e",
+    "topic": "Inverted head and shoulders / breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-inverse-1",
+      "cp-inverse-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "inverse"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 73,
+    "slide": "21f",
+    "topic": "False breakout then rally across timeframes",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-inverse-1",
+      "cp-inverse-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "inverse"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 74,
+    "slide": "22",
+    "topic": "Micro pullbacks",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-micro-1",
+      "cp-micro-2",
+      "cp-calc-sizing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "micro"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 75,
+    "slide": "22a",
+    "topic": "Micro pullback before squeeze",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-micro-1",
+      "cp-micro-2",
+      "cp-calc-sizing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "micro"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 76,
+    "slide": "22b",
+    "topic": "Micro pullback before squeeze",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-micro-1",
+      "cp-micro-2",
+      "cp-calc-sizing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "micro"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 77,
+    "slide": "22c",
+    "topic": "Micro pullback barely visible on one-minute",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-micro-1",
+      "cp-micro-2",
+      "cp-calc-sizing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "micro"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 78,
+    "slide": "23",
+    "topic": "High-of-day breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-high-day-1",
+      "cp-high-day-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "high-day"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 79,
+    "slide": "23a",
+    "topic": "High-of-day breakout example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-high-day-1",
+      "cp-high-day-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "high-day"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 80,
+    "slide": "25",
+    "topic": "Unverified buyout headline example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-headline-1",
+      "cp-headline-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "headline"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 81,
+    "slide": "26",
+    "topic": "Recent IPO breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ipo-1",
+      "cp-ipo-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ipo"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 82,
+    "slide": "26b",
+    "topic": "Recent IPO breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ipo-1",
+      "cp-ipo-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ipo"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 83,
+    "slide": "26c",
+    "topic": "Recent IPO parabolic squeeze",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-ipo-1",
+      "cp-ipo-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "ipo"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 84,
+    "slide": "27",
+    "topic": "Gap-down reversal",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-down-1",
+      "cp-gap-down-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-down"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 85,
+    "slide": "28",
+    "topic": "Multiday parabolic continuation",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-multiday-1",
+      "cp-multiday-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "multiday"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 86,
+    "slide": "29",
+    "topic": "Multiday parabolic continuation",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-multiday-1",
+      "cp-multiday-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "multiday"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 87,
+    "slide": "30",
+    "topic": "Short squeeze example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-short-squeeze-1",
+      "cp-short-squeeze-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills.",
+    "relatedTopics": [
+      "short-squeeze"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 88,
+    "slide": "31a",
+    "topic": "No-news squeeze with halt",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-no-news-halt-1",
+      "cp-no-news-halt-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills.",
+    "relatedTopics": [
+      "no-news-halt"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 89,
+    "slide": "31b",
+    "topic": "No-news squeeze with halt",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-no-news-halt-1",
+      "cp-no-news-halt-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills.",
+    "relatedTopics": [
+      "no-news-halt"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 90,
+    "slide": "32",
+    "topic": "Parabolic momentum",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-parabolic-1",
+      "cp-parabolic-2",
+      "cp-calc-chasing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "parabolic"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 91,
+    "slide": "32",
+    "topic": "Reversal example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-parabolic-1",
+      "cp-parabolic-2",
+      "cp-calc-chasing"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "parabolic"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 92,
+    "slide": "33",
+    "topic": "One-minute candle making a new high",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-one-minute-1",
+      "cp-one-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "one-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 93,
+    "slide": "33b",
+    "topic": "Consecutive one-minute candles",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-one-minute-1",
+      "cp-one-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "one-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 94,
+    "slide": "33c",
+    "topic": "Panic selloff",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-one-minute-1",
+      "cp-one-minute-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "one-minute"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 95,
+    "slide": "37",
+    "topic": "Moving-average break / trend shift",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trend-shift-1",
+      "cp-trend-shift-2",
+      "cp-calc-position-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trend-shift"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 96,
+    "slide": "37a",
+    "topic": "Trend shift short",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-trend-shift-1",
+      "cp-trend-shift-2",
+      "cp-calc-position-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "trend-shift"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 97,
+    "slide": "38",
+    "topic": "Shorting halt resumption",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-halt-1",
+      "cp-halt-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills.",
+    "relatedTopics": [
+      "halt"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 98,
+    "slide": "38a",
+    "topic": "Shorting into downward halt",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-halt-1",
+      "cp-halt-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills. Titles identify historical squeeze/halt context; chart alone does not independently verify event cause, short positioning, rule or executable fills.",
+    "relatedTopics": [
+      "halt"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 99,
+    "slide": "39",
+    "topic": "Short bear flags",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-flag-1",
+      "cp-bear-flag-2",
+      "cp-calc-short-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 100,
+    "slide": "39a",
+    "topic": "Bear flag one-minute examples",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-flag-1",
+      "cp-bear-flag-2",
+      "cp-calc-short-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 101,
+    "slide": "39b",
+    "topic": "Bear flag five-minute example",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-bear-flag-1",
+      "cp-bear-flag-2",
+      "cp-calc-short-risk"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "bear-flag"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 102,
+    "slide": "40",
+    "topic": "VWAP fade short",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-fade-1",
+      "cp-vwap-fade-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 103,
+    "slide": "40a",
+    "topic": "VWAP fade",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-fade-1",
+      "cp-vwap-fade-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 104,
+    "slide": "40b",
+    "topic": "VWAP fade",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-fade-1",
+      "cp-vwap-fade-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 105,
+    "slide": "40c",
+    "topic": "VWAP breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-break-1",
+      "cp-vwap-break-2",
+      "cp-calc-volume"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-break"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 106,
+    "slide": "40d",
+    "topic": "One-minute VWAP setup",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-break-1",
+      "cp-vwap-break-2",
+      "cp-calc-volume"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-break"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 107,
+    "slide": "40g",
+    "topic": "One-minute VWAP setup",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-break-1",
+      "cp-vwap-break-2",
+      "cp-calc-volume"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-break"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 108,
+    "slide": "40h",
+    "topic": "VWAP breakout setup",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-break-1",
+      "cp-vwap-break-2",
+      "cp-calc-volume"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-break"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 109,
+    "slide": "40i",
+    "topic": "VWAP fade then breakout",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-fade-1",
+      "cp-vwap-fade-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 110,
+    "slide": "40k",
+    "topic": "VWAP fade",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-vwap-fade-1",
+      "cp-vwap-fade-2"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "vwap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 111,
+    "slide": "41",
+    "topic": "Gap-fade history",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-fade-1",
+      "cp-gap-fade-2",
+      "cp-calc-remaining-gap"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-fade"
+    ]
+  },
+  {
+    "pdf": "ChartPatternsv2.pdf",
+    "pdfPage": 112,
+    "slide": "41a",
+    "topic": "Gap-fade history",
+    "inspection": "Visual contact-sheet review; diagram pages reviewed at full size where used for entry wording.",
+    "questionIds": [
+      "cp-gap-fade-1",
+      "cp-gap-fade-2",
+      "cp-calc-remaining-gap"
+    ],
+    "notes": "No historical OHLC reconstructed. Small screenshot labels/indicator settings not transcribed.",
+    "relatedTopics": [
+      "gap-fade"
+    ]
+  }
+]

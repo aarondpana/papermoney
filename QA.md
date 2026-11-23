@@ -15,3 +15,11 @@ Verified October 25, 2026 (America/Denver).
 Remaining deployment action: owner opens Settings → Pages → Build and deployment → Source: GitHub Actions, then re-runs latest Test and deploy GitHub Pages workflow. Later main pushes deploy automatically. Intended URL: https://aarondpana.github.io/papermoney/ (not verified live).
 
 Limitations: European theoretical model; no dividends, early assignment, liquidity, slippage or fees. Educational cash settlement and covered-share liquidation are disclosed in app and README. Quotes are manual, never live. Data stays in the browser and needs backups.
+
+## Learning update / 2026-11-23
+
+Local tests: 28 passed, including 15 original financial/accounting tests and 13 new learning/content/migration tests. Tests cover source-reference coverage, unique IDs, all answer mappings after shuffling, numeric tolerance boundaries, valid synthetic OHLC, no future candles, neutral pre-answer SVG markup, focusable region targets, v1 migration preserving a funded account/open position/journal/old progress, v2 backup restoration, bad-data rejection and first-attempt/review statistics. Production artifact checks passed.
+
+Browser QA: completed a 10-question Quick Practice session; completed and submitted a 20-question Mixed Quiz, verifying no answer-feedback elements before submission and 20 after submission; corrected a prior mistake with a marked hint and verified review recovery; followed its source reference card; tested filtered By Topic; selected a region with Enter and expanded the chart. Completed a book lesson only after its exercise and three checks, then reloaded and verified saved completion. Searched the glossary for float and confirmed existing options curriculum (13 uncompleted/one previously completed) still renders. Existing simulated account equity remained $12,029 with $29 realized P/L. At 390 × 844 the document stayed within viewport and the detailed chart scrolls inside its own container. Physical touch hardware and a full screen-reader audit were not available; equivalent pointer controls and keyboard alternatives were checked.
+
+Public deployment result is recorded in the final delivery after the new commit's workflow completes. Historical deployment failures above are retained as audit history rather than treated as current success.

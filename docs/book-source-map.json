@@ -1,0 +1,2861 @@
+{
+  "version": 1,
+  "source": {
+    "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+    "author": "Ross Cameron",
+    "publicationYear": 2023,
+    "pdfPages": 220,
+    "sha256": "1d6316cc69f4fbc1436e9543eb57a6f0942cc027297057a30df0615594e1aac5"
+  },
+  "createdBeforeLessonContent": true,
+  "reviewMethod": "Text extracted from all 220 physical pages; contents and chapter boundaries cross-checked; 48 selected instructional pages rendered and visually inspected. Physical PDF positions are 1-based. Printed Arabic pages are physical minus 14 for body/index leaves, verified at chapter boundaries. Blank leaves retain their counted printed position, not a claim of a visible folio.",
+  "chapters": [
+    {
+      "chapter": "1",
+      "title": "The Myth and the Reality",
+      "pdfPages": [
+        15,
+        19
+      ],
+      "printedPages": [
+        1,
+        5
+      ]
+    },
+    {
+      "chapter": "2",
+      "title": "Who am I to Talk about Day Trading?",
+      "pdfPages": [
+        20,
+        55
+      ],
+      "printedPages": [
+        6,
+        41
+      ]
+    },
+    {
+      "chapter": "3",
+      "title": "Day Trading is a Scam!",
+      "pdfPages": [
+        56,
+        67
+      ],
+      "printedPages": [
+        42,
+        53
+      ]
+    },
+    {
+      "chapter": "4",
+      "title": "The Market Does Not Care",
+      "pdfPages": [
+        68,
+        71
+      ],
+      "printedPages": [
+        54,
+        57
+      ]
+    },
+    {
+      "chapter": "5",
+      "title": "The Gear You Will Need",
+      "pdfPages": [
+        72,
+        77
+      ],
+      "printedPages": [
+        58,
+        63
+      ]
+    },
+    {
+      "chapter": "6",
+      "title": "Stock Market Basics",
+      "pdfPages": [
+        78,
+        91
+      ],
+      "printedPages": [
+        64,
+        77
+      ]
+    },
+    {
+      "chapter": "7",
+      "title": "The Battle That Will Happen Between Your Ears",
+      "pdfPages": [
+        92,
+        99
+      ],
+      "printedPages": [
+        78,
+        85
+      ]
+    },
+    {
+      "chapter": "8",
+      "title": "Risk and Fear in Trading",
+      "pdfPages": [
+        100,
+        125
+      ],
+      "printedPages": [
+        86,
+        111
+      ]
+    },
+    {
+      "chapter": "9",
+      "title": "Introduction to Candlesticks",
+      "pdfPages": [
+        126,
+        133
+      ],
+      "printedPages": [
+        112,
+        119
+      ]
+    },
+    {
+      "chapter": "10",
+      "title": "Finding the Right Stocks to Trade",
+      "pdfPages": [
+        134,
+        143
+      ],
+      "printedPages": [
+        120,
+        129
+      ]
+    },
+    {
+      "chapter": "11",
+      "title": "Getting Better and Better",
+      "pdfPages": [
+        144,
+        157
+      ],
+      "printedPages": [
+        130,
+        143
+      ]
+    },
+    {
+      "chapter": "12",
+      "title": "Interview with Graham",
+      "pdfPages": [
+        158,
+        169
+      ],
+      "printedPages": [
+        144,
+        155
+      ]
+    },
+    {
+      "chapter": "13",
+      "title": "Interview with Martin",
+      "pdfPages": [
+        170,
+        187
+      ],
+      "printedPages": [
+        156,
+        173
+      ]
+    },
+    {
+      "chapter": "14",
+      "title": "Next",
+      "pdfPages": [
+        188,
+        189
+      ],
+      "printedPages": [
+        174,
+        175
+      ]
+    },
+    {
+      "chapter": "15",
+      "title": "Glossary",
+      "pdfPages": [
+        190,
+        201
+      ],
+      "printedPages": [
+        176,
+        187
+      ]
+    },
+    {
+      "chapter": "16",
+      "title": "List of Guardrails",
+      "pdfPages": [
+        202,
+        204
+      ],
+      "printedPages": [
+        188,
+        190
+      ]
+    }
+  ],
+  "lessonReferences": [
+    {
+      "id": "dt-01",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        6,
+        15,
+        16,
+        17,
+        18,
+        62,
+        63
+      ],
+      "topic": "Day-trading expectations, non-typical outcomes and effort"
+    },
+    {
+      "id": "dt-02",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        20,
+        30,
+        31,
+        35,
+        36,
+        40,
+        42
+      ],
+      "topic": "Learning from the author journey and trade records"
+    },
+    {
+      "id": "dt-03",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "topic": "Workspace, simulator, tools and preparation"
+    },
+    {
+      "id": "dt-04",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "topic": "Equity and debt, shares, float, auction prices and shorts"
+    },
+    {
+      "id": "dt-05",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        92,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        111,
+        112,
+        137,
+        138
+      ],
+      "topic": "Discipline, planned loss acceptance and FOMO"
+    },
+    {
+      "id": "dt-06",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        109,
+        110,
+        111,
+        118,
+        119,
+        120,
+        121
+      ],
+      "topic": "Reward/risk, win rate, loss limits and drawdowns"
+    },
+    {
+      "id": "dt-07",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        126,
+        127,
+        128
+      ],
+      "topic": "OHLC, bodies, wicks, timeframes and incomplete candles"
+    },
+    {
+      "id": "dt-08",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "topic": "Doji, tails, hammers, long bodies and context"
+    },
+    {
+      "id": "dt-09",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        36,
+        37,
+        38,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        202,
+        203
+      ],
+      "topic": "Author-specific stock selection criteria and context"
+    },
+    {
+      "id": "dt-10",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "topic": "Structured practice, records and review process"
+    },
+    {
+      "id": "dt-11",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        158,
+        162,
+        165,
+        168,
+        170,
+        175,
+        177,
+        181,
+        183,
+        184,
+        185,
+        187
+      ],
+      "topic": "Interview process lessons; non-typical outcomes"
+    },
+    {
+      "id": "dt-12",
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pages": [
+        202,
+        203,
+        144,
+        146,
+        147,
+        154,
+        155
+      ],
+      "topic": "Guardrails and original review checklist"
+    }
+  ],
+  "pages": [
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 1,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 2,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 3,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 4,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 5,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 6,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 7,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 8,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 9,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 10,
+      "printed": "x",
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 11,
+      "printed": "xi",
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 12,
+      "printed": "xii",
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 13,
+      "printed": "xiii",
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 14,
+      "printed": null,
+      "chapter": null,
+      "topic": "Front matter, notices, contents or blank leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 15,
+      "printed": "1",
+      "chapter": "1",
+      "topic": "The Myth and the Reality",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 16,
+      "printed": "2",
+      "chapter": "1",
+      "topic": "The Myth and the Reality",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 17,
+      "printed": "3",
+      "chapter": "1",
+      "topic": "The Myth and the Reality",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 18,
+      "printed": "4",
+      "chapter": "1",
+      "topic": "The Myth and the Reality",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 19,
+      "printed": "5",
+      "chapter": "1",
+      "topic": "The Myth and the Reality",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 20,
+      "printed": "6",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 21,
+      "printed": "7",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 22,
+      "printed": "8",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 23,
+      "printed": "9",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 24,
+      "printed": "10",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 25,
+      "printed": "11",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 26,
+      "printed": "12",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 27,
+      "printed": "13",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 28,
+      "printed": "14",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 29,
+      "printed": "15",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 30,
+      "printed": "16",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 31,
+      "printed": "17",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 32,
+      "printed": "18",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 33,
+      "printed": "19",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 34,
+      "printed": "20",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 35,
+      "printed": "21",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 36,
+      "printed": "22",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02",
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 37,
+      "printed": "23",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 38,
+      "printed": "24",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 39,
+      "printed": "25",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 40,
+      "printed": "26",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 41,
+      "printed": "27",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 42,
+      "printed": "28",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [
+        "dt-02"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 43,
+      "printed": "29",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 44,
+      "printed": "30",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 45,
+      "printed": "31",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 46,
+      "printed": "32",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 47,
+      "printed": "33",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 48,
+      "printed": "34",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 49,
+      "printed": "35",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 50,
+      "printed": "36",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 51,
+      "printed": "37",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 52,
+      "printed": "38",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 53,
+      "printed": "39",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 54,
+      "printed": "40",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 55,
+      "printed": "41",
+      "chapter": "2",
+      "topic": "Who am I to Talk about Day Trading?",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 56,
+      "printed": "42",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 57,
+      "printed": "43",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 58,
+      "printed": "44",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 59,
+      "printed": "45",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 60,
+      "printed": "46",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 61,
+      "printed": "47",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 62,
+      "printed": "48",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 63,
+      "printed": "49",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [
+        "dt-01"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 64,
+      "printed": "50",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 65,
+      "printed": "51",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 66,
+      "printed": "52",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 67,
+      "printed": "53",
+      "chapter": "3",
+      "topic": "Day Trading is a Scam!",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 68,
+      "printed": "54",
+      "chapter": "4",
+      "topic": "The Market Does Not Care",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 69,
+      "printed": "55",
+      "chapter": "4",
+      "topic": "The Market Does Not Care",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 70,
+      "printed": "56",
+      "chapter": "4",
+      "topic": "The Market Does Not Care",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 71,
+      "printed": "57",
+      "chapter": "4",
+      "topic": "The Market Does Not Care",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 72,
+      "printed": "58",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 73,
+      "printed": "59",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 74,
+      "printed": "60",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 75,
+      "printed": "61",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 76,
+      "printed": "62",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 77,
+      "printed": "63",
+      "chapter": "5",
+      "topic": "The Gear You Will Need",
+      "lessonIds": [
+        "dt-03"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 78,
+      "printed": "64",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 79,
+      "printed": "65",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 80,
+      "printed": "66",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 81,
+      "printed": "67",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 82,
+      "printed": "68",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 83,
+      "printed": "69",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 84,
+      "printed": "70",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 85,
+      "printed": "71",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 86,
+      "printed": "72",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 87,
+      "printed": "73",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 88,
+      "printed": "74",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 89,
+      "printed": "75",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 90,
+      "printed": "76",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [
+        "dt-04"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 91,
+      "printed": "77",
+      "chapter": "6",
+      "topic": "Stock Market Basics",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 92,
+      "printed": "78",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 93,
+      "printed": "79",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 94,
+      "printed": "80",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 95,
+      "printed": "81",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 96,
+      "printed": "82",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 97,
+      "printed": "83",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 98,
+      "printed": "84",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 99,
+      "printed": "85",
+      "chapter": "7",
+      "topic": "The Battle That Will Happen Between Your Ears",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 100,
+      "printed": "86",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 101,
+      "printed": "87",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 102,
+      "printed": "88",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 103,
+      "printed": "89",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 104,
+      "printed": "90",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 105,
+      "printed": "91",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 106,
+      "printed": "92",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 107,
+      "printed": "93",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 108,
+      "printed": "94",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 109,
+      "printed": "95",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 110,
+      "printed": "96",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 111,
+      "printed": "97",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-05",
+        "dt-06"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 112,
+      "printed": "98",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-05"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 113,
+      "printed": "99",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 114,
+      "printed": "100",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 115,
+      "printed": "101",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 116,
+      "printed": "102",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 117,
+      "printed": "103",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 118,
+      "printed": "104",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 119,
+      "printed": "105",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 120,
+      "printed": "106",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 121,
+      "printed": "107",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [
+        "dt-06"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 122,
+      "printed": "108",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 123,
+      "printed": "109",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 124,
+      "printed": "110",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 125,
+      "printed": "111",
+      "chapter": "8",
+      "topic": "Risk and Fear in Trading",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 126,
+      "printed": "112",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-07"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 127,
+      "printed": "113",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-07"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 128,
+      "printed": "114",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-07",
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 129,
+      "printed": "115",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 130,
+      "printed": "116",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 131,
+      "printed": "117",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 132,
+      "printed": "118",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 133,
+      "printed": "119",
+      "chapter": "9",
+      "topic": "Introduction to Candlesticks",
+      "lessonIds": [
+        "dt-08"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 134,
+      "printed": "120",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 135,
+      "printed": "121",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 136,
+      "printed": "122",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 137,
+      "printed": "123",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-05",
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 138,
+      "printed": "124",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-05",
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 139,
+      "printed": "125",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 140,
+      "printed": "126",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 141,
+      "printed": "127",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 142,
+      "printed": "128",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 143,
+      "printed": "129",
+      "chapter": "10",
+      "topic": "Finding the Right Stocks to Trade",
+      "lessonIds": [
+        "dt-09"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 144,
+      "printed": "130",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 145,
+      "printed": "131",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 146,
+      "printed": "132",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 147,
+      "printed": "133",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 148,
+      "printed": "134",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 149,
+      "printed": "135",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 150,
+      "printed": "136",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 151,
+      "printed": "137",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 152,
+      "printed": "138",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 153,
+      "printed": "139",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 154,
+      "printed": "140",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 155,
+      "printed": "141",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 156,
+      "printed": "142",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 157,
+      "printed": "143",
+      "chapter": "11",
+      "topic": "Getting Better and Better",
+      "lessonIds": [
+        "dt-10"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 158,
+      "printed": "144",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 159,
+      "printed": "145",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 160,
+      "printed": "146",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 161,
+      "printed": "147",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 162,
+      "printed": "148",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 163,
+      "printed": "149",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 164,
+      "printed": "150",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 165,
+      "printed": "151",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 166,
+      "printed": "152",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 167,
+      "printed": "153",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 168,
+      "printed": "154",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 169,
+      "printed": "155",
+      "chapter": "12",
+      "topic": "Interview with Graham",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 170,
+      "printed": "156",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 171,
+      "printed": "157",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 172,
+      "printed": "158",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 173,
+      "printed": "159",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 174,
+      "printed": "160",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 175,
+      "printed": "161",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 176,
+      "printed": "162",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 177,
+      "printed": "163",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 178,
+      "printed": "164",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 179,
+      "printed": "165",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 180,
+      "printed": "166",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 181,
+      "printed": "167",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 182,
+      "printed": "168",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 183,
+      "printed": "169",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 184,
+      "printed": "170",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 185,
+      "printed": "171",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 186,
+      "printed": "172",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 187,
+      "printed": "173",
+      "chapter": "13",
+      "topic": "Interview with Martin",
+      "lessonIds": [
+        "dt-11"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 188,
+      "printed": "174",
+      "chapter": "14",
+      "topic": "Next",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 189,
+      "printed": "175",
+      "chapter": "14",
+      "topic": "Next",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 190,
+      "printed": "176",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 191,
+      "printed": "177",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 192,
+      "printed": "178",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 193,
+      "printed": "179",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 194,
+      "printed": "180",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 195,
+      "printed": "181",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 196,
+      "printed": "182",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 197,
+      "printed": "183",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 198,
+      "printed": "184",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 199,
+      "printed": "185",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 200,
+      "printed": "186",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 201,
+      "printed": "187",
+      "chapter": "15",
+      "topic": "Glossary",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 202,
+      "printed": "188",
+      "chapter": "16",
+      "topic": "List of Guardrails",
+      "lessonIds": [
+        "dt-09",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 203,
+      "printed": "189",
+      "chapter": "16",
+      "topic": "List of Guardrails",
+      "lessonIds": [
+        "dt-09",
+        "dt-12"
+      ],
+      "review": "text extraction reviewed; visual verification",
+      "limitations": null
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 204,
+      "printed": "190",
+      "chapter": "16",
+      "topic": "List of Guardrails",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 205,
+      "printed": "191",
+      "chapter": null,
+      "topic": "Acknowledgments",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 206,
+      "printed": "192",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 207,
+      "printed": "193",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 208,
+      "printed": "194",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 209,
+      "printed": "195",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 210,
+      "printed": "196",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 211,
+      "printed": "197",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 212,
+      "printed": "198",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 213,
+      "printed": "199",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 214,
+      "printed": "200",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 215,
+      "printed": "201",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 216,
+      "printed": "202",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 217,
+      "printed": "203",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 218,
+      "printed": "204",
+      "chapter": null,
+      "topic": "Index or blank index leaf",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 219,
+      "printed": null,
+      "chapter": null,
+      "topic": "Promotional end matter",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    },
+    {
+      "file": "HowToDayTrade_byRossCameron_2023_DigitalGiftCopy.pdf",
+      "pdfPage": 220,
+      "printed": null,
+      "chapter": null,
+      "topic": "Promotional end matter",
+      "lessonIds": [],
+      "review": "text extraction and chapter/contents mapping reviewed",
+      "limitations": "No lesson derived from this page"
+    }
+  ],
+  "ambiguities": [
+    {
+      "pages": [
+        131
+      ],
+      "topic": "Inverted hammer terminology",
+      "handling": "The book uses inverted hammer in an uptrend/reversal context. This track describes observable shape and explains conventional inverted-hammer-after-decline versus shooting-star-after-advance labels; source verified against StockCharts ChartSchool, not treated as a guaranteed signal."
+    },
+    {
+      "pages": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "topic": "Profit/loss ratio label",
+      "handling": "Use explicit reward:risk throughout. Book profit/loss 2:1 means potential gain twice planned downside, rather than risk:reward 2:1. Worked exercises are original and ignore costs as stated."
+    },
+    {
+      "pages": [
+        78,
+        84,
+        87,
+        88,
+        89,
+        90
+      ],
+      "topic": "Historical brokerage, tick-size and account rules",
+      "handling": "Do not reproduce current-rule claims from 2023 text. Only enduring share/auction/short-risk concepts used. No current account eligibility, settlement or buying-power advice is added."
+    }
+  ],
+  "supplementalSources": [
+    {
+      "title": "StockCharts ChartSchool: Introduction to Candlesticks",
+      "url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks",
+      "purpose": "Terminology clarification for inverted hammer versus shooting star and need for context/confirmation."
+    },
+    {
+      "title": "SEC: Key Points About Regulation SHO",
+      "url": "https://www.sec.gov/investor/pubs/regsho.htm",
+      "purpose": "Conceptual short-sale mechanics and theoretically unlimited short-stock loss only; historical settlement wording on the page is not used."
+    }
+  ]
+}
