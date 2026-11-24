@@ -1,6 +1,14 @@
 # PaperMoney
 
-A free, static options paper-trading classroom. No account, brokerage connection, paid API, analytics, backend, or production dependency. All funds are fictional.
+A free, static options paper-trading classroom. No account, brokerage connection, paid API, third-party tracking analytics, backend, or production dependency. All funds are fictional.
+
+## PaperMoney 2.0 review branch
+
+The hourly-options upgrade is prepared on `feature/papermoney-2-hourly`. It adds the 15-module **1-Hour Options Trading Masterclass**, 42 source-linked pattern references, six advanced practice categories, a progressive seeded Market Replay account, Options Lab, saved objective strategy rules, synthetic/model-priced backtests, imports, a structured journal and skill milestones. The existing 14 options lessons, 12 Ross Cameron lessons, 92 chart-guide questions, simulator, accounts and learning records remain available.
+
+See [the implementation and model report](docs/papermoney-2.0.md) for architecture, changed files, supported behavior, data schemas, verification and remaining limitations. It distinguishes implemented mechanics from future extensions; this is not a claim that synthetic results validate a strategy.
+
+Review CI (`.github/workflows/review.yml`) runs installation, all tests, static/syntax validation and uploads a review artifact without production deployment. After review and merge to `main`, the retained Pages workflow tests and deploys `dist/`. Configure Pages source as GitHub Actions. No source PDFs, local browser records, research extraction files or dependency caches belong in the artifact.
 
 ## Run locally
 
