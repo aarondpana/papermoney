@@ -1,3 +1,4 @@
+import { liquidityQuote } from "./chain-model.js";
 // Deterministic educational simulation. No historical prices or broker fills.
 import { price, intrinsic, money } from "./pricing.js";
 const newYorkClock = new Intl.DateTimeFormat("en-US", {
@@ -340,18 +341,22 @@ export function modelQuote(
       (p(spot + step) - 2 * mid + p(Math.max(0.00001, spot - step))) /
       step ** 2;
   const half = d ? Math.max(0.01, (mid * (settings.spread ?? 0.05)) / 2) : 0;
-  return {
-    mid,
-    bid: money(Math.max(0, mid - half)),
-    ask: money(mid + half),
-    delta,
-    gamma,
-    theta: price(type, spot, strike, Math.max(0, d - 1), iv, r, q) - mid,
-    vega: price(type, spot, strike, d, iv + 0.01, r, q) - mid,
-    intrinsic: intrinsic(type, spot, strike),
-    extrinsic: Math.max(0, mid - intrinsic(type, spot, strike)),
-    days: d,
-  };
+  return liquidityQuote(
+    {
+      mid,
+      bid: money(Math.max(0, mid - half)),
+      ask: money(mid + half),
+      delta,
+      gamma,
+      theta: price(type, spot, strike, Math.max(0, d - 1), iv, r, q) - mid,
+      vega: price(type, spot, strike, d, iv + 0.01, r, q) - mid,
+      intrinsic: intrinsic(type, spot, strike),
+      extrinsic: Math.max(0, mid - intrinsic(type, spot, strike)),
+      days: d,
+    },
+    { ticker: "DEMO", type, strike, expiry, time },
+    settings.spread ?? 0.05,
+  );
 }
 export function positionSize(equity, riskPercent, entry, stop, fee = 0.65) {
   [equity, riskPercent, entry, stop, fee].forEach((n, i) =>
@@ -429,7 +434,7 @@ export function equity(r) {
           p.strike,
           p.expiry,
           b.time,
-          b.iv,
+          (b.iv || 0.3) * (r.settings.iv / 0.3),
           r.settings,
         ).mid *
           p.qty *
@@ -453,7 +458,7 @@ export function enter(r, order) {
       order.strike,
       order.expiry,
       b.time,
-      b.iv,
+      (b.iv || 0.3) * (r.settings.iv / 0.3),
       r.settings,
     ),
     fill = q.ask + r.settings.slippage,
@@ -523,7 +528,7 @@ export function exit(r, id, reason = "Manual exit", forcedPremium) {
       p.strike,
       p.expiry,
       b.time,
-      b.iv,
+      (b.iv || 0.3) * (r.settings.iv / 0.3),
       r.settings,
     ),
     fill = Math.max(0, forcedPremium ?? q.bid - r.settings.slippage),
@@ -592,7 +597,7 @@ export function advance(r, count = 1) {
         o.strike,
         o.expiry,
         b.time,
-        b.iv,
+        (b.iv || 0.3) * (r.settings.iv / 0.3),
         r.settings,
       );
       if (b.time >= o.expiry) {
@@ -610,8 +615,15 @@ export function advance(r, count = 1) {
     }
     for (const p of [...r.positions]) {
       const quoteAt = (s) =>
-          modelQuote(p.type, s, p.strike, p.expiry, b.time, b.iv, r.settings)
-            .bid,
+          modelQuote(
+            p.type,
+            s,
+            p.strike,
+            p.expiry,
+            b.time,
+            (b.iv || 0.3) * (r.settings.iv / 0.3),
+            r.settings,
+          ).bid,
         atOpen = quoteAt(b.open),
         lo = Math.min(quoteAt(b.low), quoteAt(b.high)),
         hi = Math.max(quoteAt(b.low), quoteAt(b.high));

@@ -1,3 +1,9 @@
+import { mountChain } from "./chain-ui.js";
+import {
+  replayLots,
+  checkReplayOrder,
+  submitReplayOrder,
+} from "./chain-orders.js";
 import {
   freshPlatform,
   regimes,
@@ -645,7 +651,7 @@ function replay() {
       )
       .join(
         "",
-      )}</div><section class="card"><div class="fields">${select("replayRegime", "Regime", regimes, r.regime)}${field("replaySeed", "Seed", r.seed, "number", 'step="1"')}${select("replayFrame", "Chart interval minutes", [15, 60, 240, 390], view.timeframe)}${select("replaySpeed", "Playback interval seconds", [1, 2, 5], view.speed)}${field("replaySteps", "Base bars per advance", view.steps, "number", 'min="1" max="104" step="1"')}</div><div class="row section-gap"><button id="restartReplay">Restart with these settings</button><button id="randomReplay">Random scenario</button><button id="advanceReplay" class="primary">Advance candles</button><button id="playReplay">Play</button><button id="pauseReplay">Pause</button><button id="zoomIn">Zoom in</button><button id="zoomOut">Zoom out</button><button id="panBack">Pan earlier</button><button id="panNow">Latest bars</button></div><p>As of ${new Date(b.time).toISOString()} UTC · ${r.cursor} visible 15-minute bars. Hourly chart is primary; daily = 390 minutes. Last buckets can be partial.</p><div class="row">${["ema9", "ema20", "sma50", "sma200", "vwap"].map((k) => `<label><input type="checkbox" data-indicator="${k}" ${view.lines.includes(k) ? "checked" : ""}>${k}</label>`).join("")}</div><p>RSI14 ${last("rsi")} · ATR14 ${last("atr14")}. Indicators require prior bars; VWAP resets each session.</p>${marketChart(shown, { title: "Synthetic DEMO · " + view.timeframe + " minute buckets", history: all, lines: view.lines, drawings: r.drawings, positions: r.positions, trades: r.trades })}<details><summary>Draw support, resistance or a trendline</summary><div class="fields">${select("drawType", "Tool", ["support", "resistance", "trend"], "support")}${field("drawPrice", "First price", b.close)}${field("drawPrice2", "Second price", b.close + 1)}${field("drawTime", "First UTC time", new Date(shown[0].time).toISOString(), "text")}${field("drawTime2", "Second UTC time", new Date(b.time).toISOString(), "text")}</div><p>Click chart to set first price. Numeric/time controls provide a keyboard alternative.</p><button id="addDrawing">Save drawing</button><button id="clearDrawings">Clear drawings</button></details></section><section class="card section-gap"><h2>Long call / put order ticket</h2><p>Market buys at ask plus slippage. Limit buys are checked against later completed-bar quotes, never filled from a prior low. Simulated liquidity caps size.</p><div class="table-wrap"><table><thead><tr>${["Select", "Strike", "Type", "DTE", "Bid", "Ask", "Δ", "Γ", "Θ/day", "Vega/1%"].map((t) => `<th>${t}</th>`).join("")}</tr></thead><tbody>${quotes.map((q, i) => `<tr><td><button data-contract="${i}">Select</button></td><td>${q.strike}</td><td>${q.type}</td><td>${q.days.toFixed(2)}</td><td>${q.bid.toFixed(2)}</td><td>${q.ask.toFixed(2)}</td>${["delta", "gamma", "theta", "vega"].map((k) => `<td>${q[k].toFixed(3)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><form id="replayOrder"><div class="fields">${select("orderType", "Long option", ["call", "put"], "call")}${field("orderStrike", "Strike", Math.round(b.close))}${field("orderDte", "Calendar DTE", 21)}${field("orderQty", "Contracts", 1, "number", 'step="1"')}${select("orderKind", "Order kind", ["Market", "Limit"], "Market")}${field("orderLimit", "Limit premium", 3)}${field("orderStop", "Premium stop", 1)}${field("orderTarget", "Premium target", 8)}${field("orderRisk", "Planned account risk %", 0.75)}${select("orderStrategy", "Strategy", ["Discretionary", ...p().strategies.map((s) => s.name)], "Discretionary")}${field("orderPattern", "Pattern", "Unclassified", "text")}${field("orderReason", "Entry rationale", "", "text")}</div><button type="button" id="sizeReplay">Calculate size</button><output id="replaySize"></output><p id="orderReview"></p><button class="primary">Place paper order</button></form><div id="pendingOrders">${r.orders.map((o) => `<p>Pending ${o.type} ${o.strike} · limit ${o.limit} <button data-cancel="${esc(o.id)}">Cancel order</button></p>`).join("")}</div></section><section class="card section-gap"><h2>Open replay positions</h2>${r.positions.map((t) => `<article><h3>${t.qty} ${t.type} · ${t.strike}</h3><p>Entry ${t.entry.toFixed(2)} · planned risk ${usd(t.plannedRisk)} · maximum loss ${usd(t.maxLoss)}</p><div class="fields">${field("stop-" + t.id, "Premium stop", t.stop)}${field("target-" + t.id, "Premium target", t.target)}</div><button data-manage="${t.id}">Update management levels</button><button data-exit="${t.id}">Close at simulated bid</button></article>`).join("") || '<p class="empty">No open replay positions. Waiting is a valid choice.</p>'}<a href="#Trading%20Journal">Automatic replay journal (${r.trades.length} completed)</a></section><details class="card section-gap"><summary>Simulation assumptions and costs</summary><div class="fields">${Object.entries(
+      )}</div><section class="card"><div class="fields">${select("replayRegime", "Regime", regimes, r.regime)}${field("replaySeed", "Seed", r.seed, "number", 'step="1"')}${select("replayFrame", "Chart interval minutes", [15, 60, 240, 390], view.timeframe)}${select("replaySpeed", "Playback interval seconds", [1, 2, 5], view.speed)}${field("replaySteps", "Base bars per advance", view.steps, "number", 'min="1" max="104" step="1"')}</div><div class="row section-gap"><button id="restartReplay">Restart with these settings</button><button id="randomReplay">Random scenario</button><button id="advanceReplay" class="primary">Advance candles</button><button id="playReplay">Play</button><button id="pauseReplay">Pause</button><button id="zoomIn">Zoom in</button><button id="zoomOut">Zoom out</button><button id="panBack">Pan earlier</button><button id="panNow">Latest bars</button></div><p>As of ${new Date(b.time).toISOString()} UTC · ${r.cursor} visible 15-minute bars. Hourly chart is primary; daily = 390 minutes. Last buckets can be partial.</p><div class="row">${["ema9", "ema20", "sma50", "sma200", "vwap"].map((k) => `<label><input type="checkbox" data-indicator="${k}" ${view.lines.includes(k) ? "checked" : ""}>${k}</label>`).join("")}</div><p>RSI14 ${last("rsi")} · ATR14 ${last("atr14")}. Indicators require prior bars; VWAP resets each session.</p>${marketChart(shown, { title: "Synthetic DEMO · " + view.timeframe + " minute buckets", history: all, lines: view.lines, drawings: r.drawings, positions: r.positions, trades: r.trades })}<details><summary>Draw support, resistance or a trendline</summary><div class="fields">${select("drawType", "Tool", ["support", "resistance", "trend"], "support")}${field("drawPrice", "First price", b.close)}${field("drawPrice2", "Second price", b.close + 1)}${field("drawTime", "First UTC time", new Date(shown[0].time).toISOString(), "text")}${field("drawTime2", "Second UTC time", new Date(b.time).toISOString(), "text")}</div><p>Click chart to set first price. Numeric/time controls provide a keyboard alternative.</p><button id="addDrawing">Save drawing</button><button id="clearDrawings">Clear drawings</button></details></section><section class="card section-gap"><h2>Long call / put order ticket</h2><p>Market buys at ask plus slippage. Limit buys are checked against later completed-bar quotes, never filled from a prior low. Simulated liquidity caps size.</p><div id="replayBrokerChain"></div><details class="legacy-replay-ticket"><summary>Advanced replay ticket</summary><div class="table-wrap"><table><thead><tr>${["Select", "Strike", "Type", "DTE", "Bid", "Ask", "Δ", "Γ", "Θ/day", "Vega/1%"].map((t) => `<th>${t}</th>`).join("")}</tr></thead><tbody>${quotes.map((q, i) => `<tr><td><button data-contract="${i}">Select</button></td><td>${q.strike}</td><td>${q.type}</td><td>${q.days.toFixed(2)}</td><td>${q.bid.toFixed(2)}</td><td>${q.ask.toFixed(2)}</td>${["delta", "gamma", "theta", "vega"].map((k) => `<td>${q[k].toFixed(3)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><form id="replayOrder"><div class="fields">${select("orderType", "Long option", ["call", "put"], "call")}${field("orderStrike", "Strike", Math.round(b.close))}${field("orderDte", "Calendar DTE", 21)}${field("orderQty", "Contracts", 1, "number", 'step="1"')}${select("orderKind", "Order kind", ["Market", "Limit"], "Market")}${field("orderLimit", "Limit premium", 3)}${field("orderStop", "Premium stop", 1)}${field("orderTarget", "Premium target", 8)}${field("orderRisk", "Planned account risk %", 0.75)}${select("orderStrategy", "Strategy", ["Discretionary", ...p().strategies.map((s) => s.name)], "Discretionary")}${field("orderPattern", "Pattern", "Unclassified", "text")}${field("orderReason", "Entry rationale", "", "text")}</div><button type="button" id="sizeReplay">Calculate size</button><output id="replaySize"></output><p id="orderReview"></p><button class="primary">Place paper order</button></form></details><div id="pendingOrders">${r.orders.map((o) => `<p>Pending ${o.type} ${o.strike} · limit ${o.limit} <button data-cancel="${esc(o.id)}">Cancel order</button></p>`).join("")}</div></section><section class="card section-gap"><h2>Open replay positions</h2>${r.positions.map((t) => `<article><h3>${t.qty} ${t.type} · ${t.strike}</h3><p>Entry ${t.entry.toFixed(2)} · planned risk ${usd(t.plannedRisk)} · maximum loss ${usd(t.maxLoss)}</p><div class="fields">${field("stop-" + t.id, "Premium stop", t.stop)}${field("target-" + t.id, "Premium target", t.target)}</div><button data-manage="${t.id}">Update management levels</button><button data-exit="${t.id}">Close at simulated bid</button></article>`).join("") || '<p class="empty">No open replay positions. Waiting is a valid choice.</p>'}<a href="#Trading%20Journal">Automatic replay journal (${r.trades.length} completed)</a></section><details class="card section-gap"><summary>Simulation assumptions and costs</summary><div class="fields">${Object.entries(
       r.settings,
     )
       .map(([k, v]) => field("setting-" + k, parameterLabels[k] || k, v))
@@ -653,6 +659,65 @@ function replay() {
         "",
       )}</div><button id="saveReplayCosts">Apply to future fills and current marks</button><p>Spread is full proportional spread with a $0.01 half-spread floor. Slippage is dollars/share per side; commission dollars/contract per side. European model with continuous dividend yield. OHLC stops win simultaneous touches; gap stops use worse opening bid. Expiration uses educational intrinsic cash settlement, not share delivery. Costs and IV changes can create losses despite correct direction.</p></details>`,
   );
+  mountChain($("#replayBrokerChain"), {
+    scope: "replay",
+    state: ctx.state,
+    persist: ctx.persist,
+    toast: ctx.toast,
+    refresh: replay,
+    synthetic: true,
+    replay: true,
+    rate: r.settings.rate,
+    dividend: r.settings.dividend,
+    fee: r.settings.commission,
+    slippage: r.settings.slippage,
+    limit: true,
+    label: "Seeded synthetic DEMO · replay clock",
+    time: () => visible(r).at(-1).time,
+    iv: () => visible(r).at(-1).iv * (r.settings.iv / 0.3),
+    tickers: () => ["DEMO"],
+    spot: () => visible(r).at(-1).close,
+    expirations: () =>
+      [
+        ...new Set(
+          [7, 14, 21, 30, 60]
+            .map((d) => visible(r).at(-1).time + d * 86400000)
+            .concat(r.positions.map((p) => p.expiry)),
+        ),
+      ].sort((a, b) => a - b),
+    strikes: () =>
+      Array.from({ length: 21 }, (_, i) =>
+        Math.max(
+          0.01,
+          Math.round(visible(r).at(-1).close / 2) * 2 + (i - 10) * 2,
+        ),
+      ),
+    quote: (ticker, type, strike, expiry) =>
+      modelQuote(
+        type,
+        visible(r).at(-1).close,
+        strike,
+        expiry,
+        visible(r).at(-1).time,
+        visible(r).at(-1).iv * (r.settings.iv / 0.3),
+        r.settings,
+      ),
+    positions: (c) => replayLots(r, c),
+    onSelect: () => {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    },
+    check: (o) => checkReplayOrder(r, o),
+    submit: (o) => submitReplayOrder(r, o),
+    handoff: (action) => {
+      p();
+      ctx.state.settings.openContractTool = action;
+      save();
+      location.hash = action === "lab" ? "#Options%20Lab" : "#Strategies";
+    },
+  });
   bindCrosshair(shown, (pt) => {
     $("#drawPrice").value = pt.price.toFixed(2);
     $("#drawTime").value = new Date(pt.bar.time).toISOString();
@@ -942,6 +1007,23 @@ function replayPlaying(seconds, steps) {
   if ($("#playReplay")) $("#playReplay").disabled = true;
 }
 function lab() {
+  const selected = ctx.state.settings.contractContext;
+  if (selected && ctx.state.settings.openContractTool === "lab") {
+    view.lab = {
+      spot: selected.spot,
+      strike: selected.strike,
+      type: selected.type,
+      days: Math.floor((selected.expiry - selected.time) / 86400000),
+      hours: ((selected.expiry - selected.time) / 36e5) % 24,
+      iv: selected.iv,
+      rate: selected.rate,
+      dividend: selected.dividend,
+      qty: 1,
+      premium: selected.premium,
+    };
+    delete ctx.state.settings.openContractTool;
+    save();
+  }
   const v = view.lab || {
     spot: 100,
     strike: 100,
@@ -1133,6 +1215,18 @@ function strategiesPage() {
   const id = decodeURIComponent(location.hash).split("/")[1],
     saved = p().strategies.find((s) => s.id === id),
     s = structuredClone(saved || strategy());
+  if (!saved && ctx.state.settings.openContractTool === "strategy") {
+    const c = ctx.state.settings.contractContext;
+    if (c) {
+      s.direction = c.type === "call" ? "bullish" : "bearish";
+      s.watchlist = c.ticker;
+      s.name = c.ticker + " " + c.type + " study";
+      s.notes +=
+        " Selected strike " + c.strike + "; no profitable strategy is implied.";
+    }
+    delete ctx.state.settings.openContractTool;
+    save();
+  }
   page(
     "Strategy Builder",
     "Objective rule configurations. Experimental educational defaults; no validated profitability. Free-text thesis fields document intent and never execute code.",
@@ -1287,7 +1381,15 @@ function journal() {
     legacy = ctx.state.journal.map((j) => ({
       ...j,
       source: "practice-" + j.mode,
-      strategy: "Legacy practice",
+      strategy:
+        j.details?.source === "broker-chain"
+          ? "Chain practice"
+          : "Legacy practice",
+      type: j.details?.type,
+      strike: j.details?.strike,
+      qty: j.details?.quantity,
+      pnl: j.details?.realizedPnl,
+      entryTime: Date.parse(j.created),
       notes: j.reflection,
       reason: j.reason,
     })),

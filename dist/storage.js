@@ -1,3 +1,4 @@
+import { validateChainState } from "./chain-model.js";
 import {
   freshPlatform,
   validatePlatform,
@@ -236,7 +237,7 @@ export function validate(s) {
     )
       throw Error("Invalid scenario market");
   if (s.platform) validatePlatform(s.platform);
-  return validateLearning(s);
+  return validateChainState(validateLearning(s));
 }
 export function load(storage) {
   try {

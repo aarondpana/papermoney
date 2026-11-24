@@ -1,0 +1,382 @@
+[hidden] {
+  display: none !important;
+}
+.practice-workspace {
+  display: grid;
+  gap: 22px;
+}
+.chain-card {
+  min-width: 0;
+}
+.broker-chain {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.broker-chain h2 {
+  font-size: 1.5rem;
+  margin: 0 0 8px;
+}
+.chain-heading {
+  display: grid;
+  grid-template-columns: 1fr minmax(140px, 220px) minmax(150px, 240px);
+  align-items: end;
+  gap: 18px;
+}
+.chain-heading strong {
+  font-size: 1.2rem;
+}
+.chain-heading strong span {
+  color: var(--green);
+}
+.broker-chain label {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.chain-tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  border-bottom: 1px solid var(--line);
+  margin-top: 20px;
+  padding: 12px 0;
+}
+.chain-tabs button {
+  background: none;
+  border-color: transparent;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.chain-tabs button[aria-selected="true"] {
+  color: var(--white);
+  background: #303a34;
+}
+.chain-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 14px;
+  padding: 16px 0;
+}
+.chain-toolbar select {
+  font-size: 0.875rem;
+  min-width: 125px;
+}
+.chain-segment {
+  display: flex;
+  padding: 4px;
+  background: #202923;
+  border-radius: 8px;
+  gap: 3px;
+}
+.chain-segment button {
+  min-width: 78px;
+  border: 0;
+  background: transparent;
+  font-size: 0.95rem;
+  padding: 8px 16px;
+  color: var(--muted);
+}
+.chain-segment button[aria-pressed="true"] {
+  background: #414e44;
+  color: var(--white);
+}
+.chain-source {
+  font-size: 0.875rem !important;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.chain-notice {
+  border-left: 3px solid #e4c48a;
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  background: #22271d;
+}
+.chain-settings {
+  margin: 14px 0;
+}
+.chain-settings summary {
+  font-size: 0.875rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.chain-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 0;
+}
+.broker-chain input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+.chain-filter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.chain-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.chain-layout.with-ticket {
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+}
+.broker-table {
+  max-height: 445px;
+  overflow: auto;
+  position: relative;
+  scrollbar-gutter: stable;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.broker-table table {
+  width: 100%;
+  min-width: 610px;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+}
+.broker-table th,
+.broker-table td {
+  padding: 9px 12px;
+  text-align: right;
+  white-space: nowrap;
+}
+.broker-table th:first-child {
+  text-align: left;
+}
+.broker-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #1b231e;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.broker-table tr {
+  height: 45px;
+}
+.contract-row.itm {
+  background: #b3ef7c04;
+}
+.contract-row.atm {
+  background: #b3ef7c0c;
+}
+.contract-row.selected {
+  box-shadow: inset 3px 0 var(--green);
+}
+.contract-expand {
+  background: transparent;
+  border: 0;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  padding: 5px 0;
+}
+.contract-expand small {
+  font-size: 0.75rem;
+  margin-left: 5px;
+  color: var(--muted);
+  font-weight: 400;
+}
+.contract-price {
+  padding: 7px 12px;
+  color: var(--green);
+  font-variant-numeric: tabular-nums;
+  min-width: 78px;
+  background: #2b352d;
+  border: 1px solid transparent;
+}
+.contract-price:hover {
+  border-color: var(--green);
+}
+.contract-price:disabled {
+  color: var(--muted);
+}
+.stock-divider {
+  height: 36px !important;
+  background: #19251c;
+  color: var(--green);
+  font-weight: 600;
+}
+.stock-divider td {
+  text-align: center !important;
+  border-top: 1px dashed #82a96b;
+  border-bottom: 1px dashed #82a96b;
+}
+.chain-help {
+  font-size: 0.8rem;
+  cursor: help;
+  color: var(--muted);
+  font-weight: 400;
+}
+.chain-details {
+  text-align: left;
+  white-space: normal;
+  padding: 14px;
+}
+.chain-details p {
+  font-size: 0.875rem;
+}
+.chain-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+.chain-metrics > div {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.chain-metrics span {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.chain-metrics strong {
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+.broker-ticket {
+  position: sticky;
+  top: 16px;
+  background: #111a14;
+  border: 1px solid #465d49;
+  border-radius: 10px;
+  padding: 18px;
+}
+.broker-ticket h3 {
+  margin-top: 0;
+}
+.broker-ticket label {
+  display: block;
+  margin: 12px 0;
+}
+.broker-ticket p {
+  font-size: 0.875rem;
+}
+.broker-ticket button {
+  margin: 6px 5px 0 0;
+}
+.broker-ticket #bcEstimate {
+  padding: 10px 0;
+  border-block: 1px solid var(--line);
+  font-variant-numeric: tabular-nums;
+}
+.chain-returns {
+  min-width: 0;
+}
+.chain-returns p {
+  font-size: 0.875rem;
+}
+.chain-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.chain-payoff {
+  width: 100%;
+  height: auto;
+  min-height: 240px;
+  cursor: crosshair;
+}
+.chain-payoff text {
+  fill: #c4d0c7;
+  font: 14px system-ui;
+}
+.legacy-replay-ticket,
+.advanced-builder {
+  margin-top: 18px;
+}
+.chain-pending {
+  margin-top: 18px;
+}
+.chain-pending p {
+  font-size: 0.875rem;
+}
+.broker-chain button:focus-visible,
+.broker-table:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+@media (max-width: 1050px) {
+  .chain-layout.with-ticket {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .broker-ticket {
+    position: static;
+  }
+  .chain-heading {
+    grid-template-columns: 1fr 1fr;
+  }
+  .chain-heading > div {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 600px) {
+  .chain-heading {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .chain-toolbar {
+    gap: 10px;
+  }
+  .chain-segment {
+    flex: 1;
+  }
+  .chain-segment button {
+    min-width: 0;
+    flex: 1;
+    padding: 8px 12px;
+  }
+  .chain-toolbar > label {
+    flex: 1;
+  }
+  .chain-filter {
+    grid-template-columns: 1fr 1fr;
+  }
+  .chain-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .broker-table {
+    max-height: 375px;
+  }
+  .broker-table table {
+    min-width: 610px;
+  }
+  .broker-chain .chain-tabs button {
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+  .broker-chain .chain-source {
+    font-size: 0.875rem;
+  }
+  .chain-returns .chain-filter {
+    grid-template-columns: 1fr;
+  }
+  .chain-payoff {
+    min-height: 200px;
+  }
+  .chain-card {
+    padding: 14px !important;
+  }
+}
+/* Keep the actionable quote in view while secondary columns scroll. */
+.broker-table th:last-child,
+.broker-table td:last-child {
+  position: sticky;
+  right: 0;
+  background: #1b231e;
+  z-index: 1;
+}
+.broker-table thead th:last-child {
+  z-index: 3;
+}
+.broker-table .stock-divider td,
+.broker-table .contract-detail td {
+  position: static;
+  background: inherit;
+}

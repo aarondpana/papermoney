@@ -1,3 +1,11 @@
+import { mountChain } from "./chain-ui.js";
+import { liquidityQuote } from "./chain-model.js";
+import {
+  practiceLots,
+  checkPracticeOrder,
+  submitPracticeOrder,
+  processPracticeLimits,
+} from "./chain-orders.js";
 import {
   renderPlatform,
   renderHourly,
@@ -94,12 +102,16 @@ const stockPrice = (t) =>
       0;
 function getQuote(type, k, p, strict = false) {
   if (sim())
-    return quote(
-      type,
-      state.market.spot,
-      k,
-      days(p.expiration),
-      state.market.iv,
+    return liquidityQuote(
+      quote(type, state.market.spot, k, days(p.expiration), state.market.iv),
+      {
+        ticker: p.ticker || "DEMO",
+        type,
+        strike: k,
+        expiry: Date.parse(p.expiration + "T12:00:00Z"),
+        time: Date.parse(dayDate(state.market.day) + "T12:00:00Z"),
+        daily: true,
+      },
     );
   const q = state.snapshots
     .filter(
@@ -391,13 +403,13 @@ function practice() {
       "Practice trading",
       "Explore a strategy. Understand the risk. Make the decision.",
     ) +
-    `<div class="source">${esc(source())}</div>${state.mode === "scenario" ? '<div class="notice">Isolated modeled estimates based on your last selected snapshot. Separate funds and positions; no snapshot quotes are used for valuation here.</div>' : ""}${sim() ? `<section class="card section-gap"><div class="split"><h2>Market lab</h2><span class="pill">CLOCK ADVANCES ONLY WHEN YOU ASK</span></div><div class="fields"><label>Stock price · USD<input id="spot" type="number" min=".01" step=".01" value="${state.market.spot}"></label><label>Implied volatility · %<input id="iv" type="number" min="0" max="500" step="1" value="${state.market.iv * 100}"></label><label>Scenario preset<select id="preset">${["Rising market", "Falling market", "Sideways market", "Volatility spike", "Post-event volatility crush", "Approaching expiration"].map((p) => `<option ${p === state.market.preset ? "selected" : ""}>${p}</option>`).join("")}</select></label></div><div class="row"><button id="applyMarket">Apply market inputs</button><label>Advance days<input id="advanceDays" type="number" value="1" min="1" max="3650"></label><button id="advance">Advance clock →</button><span class="source">${dayDate(state.market.day)} · Scenario steps are deterministic.</span></div></section>` : snapshotForm()}<div class="grid cols section-gap"><section class="card"><h2>Options chain</h2><div class="fields two"><label>Underlying<select id="ticker">${(sim() ? ["DEMO"] : [...new Set(state.snapshots.map((q) => q.ticker))]).map((t) => `<option>${esc(t)}</option>`).join("")}</select></label><label>Expiration<select id="expiration">${exp.map((e) => `<option>${e}</option>`).join("")}</select></label></div><div id="chain"></div><details><summary>How to read the chain</summary>Calls benefit from higher prices; puts benefit from lower prices. ITM means intrinsic value is positive, OTM means zero intrinsic value; ATM is within $0.01 of strike. Greeks use per-share units (see page footer). Snapshots have no inferred IV or Greeks.</details></section><section class="card"><h2>Build your trade</h2><label>Strategy<select id="strategy">${Object.keys(
+    `<div class="source">${esc(source())}</div>${state.mode === "scenario" ? '<div class="notice">Isolated modeled estimates based on your last selected snapshot. Separate funds and positions; no snapshot quotes are used for valuation here.</div>' : ""}${sim() ? `<section class="card section-gap"><div class="split"><h2>Market lab</h2><span class="pill">CLOCK ADVANCES ONLY WHEN YOU ASK</span></div><div class="fields"><label>Stock price · USD<input id="spot" type="number" min=".01" step=".01" value="${state.market.spot}"></label><label>Implied volatility · %<input id="iv" type="number" min="0" max="500" step="1" value="${state.market.iv * 100}"></label><label>Scenario preset<select id="preset">${["Rising market", "Falling market", "Sideways market", "Volatility spike", "Post-event volatility crush", "Approaching expiration"].map((p) => `<option ${p === state.market.preset ? "selected" : ""}>${p}</option>`).join("")}</select></label></div><div class="row"><button id="applyMarket">Apply market inputs</button><label>Advance days<input id="advanceDays" type="number" value="1" min="1" max="3650"></label><button id="advance">Advance clock →</button><span class="source">${dayDate(state.market.day)} · Scenario steps are deterministic.</span></div></section>` : snapshotForm()}<div class="practice-workspace section-gap"><section class="card chain-card"><div class="fields two" hidden><label>Underlying<select id="ticker">${(sim() ? ["DEMO"] : [...new Set(state.snapshots.map((q) => q.ticker))]).map((t) => `<option>${esc(t)}</option>`).join("")}</select></label><label>Expiration<select id="expiration">${exp.map((e) => `<option>${e}</option>`).join("")}</select></label></div><div id="chain"></div><div id="chainPending"></div><details><summary>How to read the chain</summary>Calls benefit from higher prices; puts benefit from lower prices. ITM means intrinsic value is positive, OTM means zero intrinsic value; ATM is within $0.01 of strike. Greeks use per-share units (see page footer). Snapshots have no inferred IV or Greeks.</details></section><details class="card advanced-builder"><summary>Advanced strategies and stock practice</summary><h2>Build your trade</h2><label>Strategy<select id="strategy">${Object.keys(
       strategies,
     )
       .map((s) => `<option>${s}</option>`)
       .join(
         "",
-      )}</select></label><div class="fields two"><label>Contracts<input id="qty" type="number" value="1" min="1" max="100"></label><label>Lower / single strike<input id="low" type="number" value="100" min=".01" step=".5"></label><label>Upper strike · spreads<input id="high" type="number" value="105" min=".01" step=".5"></label></div><p class="tip">One equity option contract represents 100 shares. Start small and check maximum loss.</p><button id="preview" class="primary">Review order →</button><hr><h3>Stock practice</h3><label>Whole shares · negative to sell<input id="shares" type="number" step="1" value="100"></label><p class="source">Stock fills at the displayed underlying price, with no spread. Shares committed to calls cannot be sold.</p><button id="stockTrade">Review stock trade</button></section></div>`;
+      )}</select></label><div class="fields two"><label>Contracts<input id="qty" type="number" value="1" min="1" max="100"></label><label>Lower / single strike<input id="low" type="number" value="100" min=".01" step=".5"></label><label>Upper strike · spreads<input id="high" type="number" value="105" min=".01" step=".5"></label></div><p class="tip">One equity option contract represents 100 shares. Start small and check maximum loss.</p><button id="preview" class="primary">Review order →</button><hr><h3>Stock practice</h3><label>Whole shares · negative to sell<input id="shares" type="number" step="1" value="100"></label><p class="source">Stock fills at the displayed underlying price, with no spread. Shares committed to calls cannot be sold.</p><button id="stockTrade">Review stock trade</button></details></div>`;
   if (sim()) {
     $("#applyMarket").onclick = () =>
       act(() => {
@@ -442,6 +454,7 @@ function practice() {
           for (const pos of [...A().positions])
             if (!days(pos.expiration))
               close(A(), pos.id, null, state.market.spot);
+          processPracticeLimits(state, getQuote);
         }
         persist();
         render();
@@ -483,59 +496,128 @@ function practice() {
     });
 }
 function chain() {
-  const t = ticker(),
-    e = val("expiration");
-  if (!e) {
-    $("#chain").innerHTML =
-      '<p class="empty">Add fresh snapshots to build your options chain.</p>';
-    return;
-  }
-  let strikes = sim()
-    ? Array.from({ length: 9 }, (_, i) =>
-        money(
-          Math.max(0.01, Math.round(state.market.spot / 5) * 5 + (i - 4) * 5),
-        ),
-      )
-    : [
-        ...new Set(
-          state.snapshots
-            .filter((q) => q.ticker === t && q.expiration === e)
-            .map((q) => q.strike),
-        ),
-      ].sort((a, b) => a - b);
-  $("#chain").innerHTML =
-    `<div class="split"><strong>${esc(t)} <span class="positive">${usd(stockPrice(t))}</span></strong><small>${esc(source())}</small></div><div class="table-wrap"><table><thead><tr><th>Strike</th><th>Type · status</th><th>Bid</th><th>Ask</th><th>Mid</th><th>IV</th><th>Δ</th><th>Γ</th><th>Θ/day</th><th>Vega/1%</th><th>Quote time / source</th></tr></thead><tbody>${strikes
-      .map((k) =>
-        ["call", "put"]
-          .map((type) => {
-            let q;
-            try {
-              q = getQuote(type, k, { ticker: t, expiration: e });
-            } catch {
-              return "";
-            }
-            const itm = type === "call" ? stockPrice(t) > k : stockPrice(t) < k,
-              status =
-                Math.abs(stockPrice(t) - k) < 0.01
-                  ? "ATM"
-                  : itm
-                    ? "ITM"
-                    : "OTM";
-            return `<tr><td><button data-strike="${k}" data-type="${type}">${k.toFixed(2)}</button></td><td>${type} <span class="${itm ? "positive" : "muted"}">${status}</span></td><td>${usd(q.bid)}</td><td>${usd(q.ask)}</td><td>${usd(q.mid)}</td><td>${sim() ? (state.market.iv * 100).toFixed(0) + "%" : "Unavailable"}</td>${["delta", "gamma", "theta", "vega"].map((g) => `<td>${sim() ? q[g].toFixed(3) : "Unavailable"}</td>`).join("")}<td>${sim() ? dayDate(state.market.day) + " · theoretical" : esc(q.timestamp) + " · " + esc(q.source || "manual")}</td></tr>`;
-          })
-          .join(""),
-      )
-      .join("")}</tbody></table></div>`;
-  document.querySelectorAll("[data-strike]").forEach(
-    (b) =>
-      (b.onclick = () => {
-        $("#low").value = b.dataset.strike;
-        $("#high").value = Number(b.dataset.strike) + 5;
-        $("#strategy").value =
-          b.dataset.type === "call" ? "Long call" : "Long put";
-        $("#preview").focus();
+  const epoch = (e) => Date.parse(e + (sim() ? "T12:00:00Z" : "T21:00:00Z"));
+  const currentTime = () =>
+    sim()
+      ? Date.parse(dayDate(state.market.day) + "T12:00:00Z")
+      : Date.parse(
+          state.snapshots.filter((q) => q.ticker === ticker()).at(-1)
+            ?.timestamp,
+        ) || Date.parse(dayDate(state.market.day) + "T12:00:00Z");
+  mountChain($("#chain"), {
+    scope: "practice-" + state.mode,
+    state,
+    persist,
+    toast,
+    refresh: render,
+    synthetic: sim(),
+    rate: 0,
+    dividend: 0,
+    fee: 0,
+    slippage: 0,
+    limit: sim(),
+    label: sim()
+      ? "Theoretical DEMO · paused simulation clock"
+      : "Manual snapshots · quote timestamp clock",
+    time: currentTime,
+    iv: () => (sim() ? state.market.iv : null),
+    tickers: () =>
+      sim() ? ["DEMO"] : [...new Set(state.snapshots.map((q) => q.ticker))],
+    spot: stockPrice,
+    expirations: (t) =>
+      sim()
+        ? [
+            ...new Set(
+              [1, 7, 14, 21, 30, 60]
+                .map((d) => epoch(dayDate(state.market.day + d)))
+                .concat(
+                  A()
+                    .positions.filter((p) => p.ticker === t)
+                    .map((p) => epoch(p.expiration)),
+                ),
+            ),
+          ]
+            .filter((e) => e > currentTime())
+            .sort((a, b) => a - b)
+        : [
+            ...new Set(
+              state.snapshots
+                .filter((q) => q.ticker === t)
+                .map((q) => epoch(q.expiration)),
+            ),
+          ].sort((a, b) => a - b),
+    strikes: (t, e) =>
+      sim()
+        ? [
+            ...new Set(
+              Array.from({ length: 21 }, (_, i) =>
+                money(
+                  Math.max(
+                    0.01,
+                    Math.round(stockPrice(t) / 5) * 5 + (i - 10) * 5,
+                  ),
+                ),
+              ),
+            ),
+          ]
+        : [
+            ...new Set(
+              state.snapshots
+                .filter(
+                  (q) =>
+                    q.ticker === t &&
+                    q.expiration === new Date(e).toISOString().slice(0, 10),
+                )
+                .map((q) => q.strike),
+            ),
+          ],
+    quote: (t, type, k, e) =>
+      getQuote(type, k, {
+        ticker: t,
+        expiration: new Date(e).toISOString().slice(0, 10),
       }),
-  );
+    positions: (c) => practiceLots(state, c),
+    onContext: (t, e) => {
+      $("#ticker").value = t;
+      if (e) {
+        const value = new Date(e).toISOString().slice(0, 10);
+        if (![...$("#expiration").options].some((o) => o.value === value))
+          $("#expiration").add(new Option(value, value));
+        $("#expiration").value = value;
+      }
+    },
+    check: (o) => checkPracticeOrder(state, o, getQuote),
+    submit: (o) => submitPracticeOrder(state, o, getQuote),
+    handoff: (action) => {
+      state.settings.openContractTool = action;
+      persist(false);
+      location.hash = action === "lab" ? "#Options%20Lab" : "#Strategies";
+    },
+  });
+  const orders = (state.chainOrders || []).filter((o) => o.mode === state.mode);
+  if (orders.length) {
+    const panel = document.createElement("div");
+    panel.className = "chain-pending";
+    panel.innerHTML =
+      "<h3>Conditional chain orders</h3>" +
+      orders
+        .slice(-10)
+        .map(
+          (o) =>
+            `<p>${esc(o.type)} ${o.strike} × ${o.qty} · limit ${usd(o.limit)} · ${esc(o.status)} ${o.status === "pending" ? '<button data-cancel-chain="' + esc(o.id) + '">Cancel</button>' : ""}</p>`,
+        )
+        .join("");
+    $("#chainPending").replaceChildren(panel);
+    panel.querySelectorAll("[data-cancel-chain]").forEach(
+      (b) =>
+        (b.onclick = () => {
+          orders.find((o) => o.id === b.dataset.cancelChain).status =
+            "canceled";
+          persist(false);
+          chain();
+        }),
+    );
+  }
 }
 function reviewOrder() {
   const t = ticker(),

@@ -2,6 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 const required = [
+  "chain-ui.js",
+  "chain-model.js",
+  "chain-orders.js",
+  "chain.css",
   "index.html",
   "app.js",
   "pricing.js",

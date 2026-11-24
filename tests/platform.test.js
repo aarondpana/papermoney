@@ -56,7 +56,8 @@ test("Greeks approximate local sensitivity and near-expiry remains finite", () =
   assert.ok(q.vega > 0);
   const exp = modelQuote("put", 100, 100, 0, 0, 0.3);
   assert.equal(exp.mid, 0);
-  for (const n of Object.values(exp)) assert.ok(Number.isFinite(n));
+  for (const [key, n] of Object.entries(exp))
+    if (key !== "liquidity") assert.ok(Number.isFinite(n));
 });
 test("seeded market determinism, gaps, weekends and valid OHLC", () => {
   assert.deepEqual(scenario(44), scenario(44));

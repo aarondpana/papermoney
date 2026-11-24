@@ -139,3 +139,5 @@ export function risk(p, shareBasis = 0) {
           : hi - Math.abs(p.debit) / (100 * p.qty),
   };
 }
+
+export const normalCDF = cdf;

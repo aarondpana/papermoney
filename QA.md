@@ -35,3 +35,7 @@ Browser checks: preserved $12,029 original equity and $29 realized P/L; placed a
 Responsive checks: 390x844 mobile document width 375 with detail charts scrolling inside their own containers, functional mobile workspace selector; default tablet layout; desktop 1280x900 document width 1265 and fully visible chart axis. Native keyboard forms and accessible candle tables remain available. No physical touch hardware or full screen-reader audit. Automated browser CSV-download verification stalled and reset the browser tool session; that export delivery check remains unverified. Export generation uses standard browser Blob downloads; no successful download is claimed.
 
 The existing Pages workflow is not changed by this feature. Review-only CI uploads a static artifact without deploying; production remains the prior released version until a reviewed merge to main. Known model/product limits and actual-quote execution rejection are documented in docs/papermoney-2.0.md. No PDFs, extraction text, browser records, npm caches or sample performance records were staged as website data.
+
+## Options chain redesign — 2026-11-24
+
+72 tests pass (18 new chain tests); production static checks pass. Browser checks cover scenario buy/review/partial and full close, replay buy/hourly advance/close/journal, returns and chart interaction, Lab/strategy handoff, saved modes and pending limits, mobile 390×844 and desktop 1280×900. Original practice equity/realized P&L preserved. Detailed evidence and model limits: docs/options-chain.md.
