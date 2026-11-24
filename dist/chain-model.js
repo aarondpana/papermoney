@@ -1,4 +1,4 @@
-import { price, intrinsic, money, normalCDF } from "./pricing.js";
+import { price, intrinsic, money, normalCDF } from "./pricing.js?v=382f06ff093b";
 const valid = (x, min = 0, max = 1e15) =>
   typeof x === "number" && Number.isFinite(x) && x >= min && x <= max;
 function inputs(c) {

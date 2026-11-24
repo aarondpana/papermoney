@@ -1,3 +1,4 @@
+import { versionAssets } from "./version-assets.js";
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
@@ -27,6 +28,7 @@ const required = [
   "hourly-content.js",
   "platform.css",
 ];
+const releaseVersion = versionAssets();
 for (const f of required)
   if (!fs.existsSync("dist/" + f)) throw Error("Missing " + f);
 for (const f of fs.readdirSync("dist").filter((f) => f.endsWith(".js"))) {
@@ -35,10 +37,12 @@ for (const f of fs.readdirSync("dist").filter((f) => f.endsWith(".js"))) {
   });
   const source = fs.readFileSync(path.join("dist", f), "utf8");
   for (const match of source.matchAll(/from\s+['"]\.\/([^'"]+)['"]/g))
-    if (!fs.existsSync(path.join("dist", match[1])))
+    if (!fs.existsSync(path.join("dist", match[1].split("?")[0])))
       throw Error("Missing module " + match[1]);
 }
 fs.writeFileSync("dist/.nojekyll", "");
 console.log(
   "Static production files, module references and JavaScript syntax verified. No runtime dependencies or compilation required.",
 );
+
+console.log("Release asset version: " + releaseVersion);

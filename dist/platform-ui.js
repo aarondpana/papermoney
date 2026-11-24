@@ -1,9 +1,9 @@
-import { mountChain } from "./chain-ui.js";
+import { mountChain } from "./chain-ui.js?v=382f06ff093b";
 import {
   replayLots,
   checkReplayOrder,
   submitReplayOrder,
-} from "./chain-orders.js";
+} from "./chain-orders.js?v=382f06ff093b";
 import {
   freshPlatform,
   regimes,
@@ -28,16 +28,16 @@ import {
   analytics,
   defaults,
   number,
-} from "./platform-engine.js";
+} from "./platform-engine.js?v=382f06ff093b";
 import {
   hourlyLessons,
   library,
   patternFigure,
   categories,
   advancedQuestion,
-} from "./hourly-content.js";
-import { esc, plot, marketChart, bindCrosshair } from "./platform-charts.js";
-import { price, intrinsic } from "./pricing.js";
+} from "./hourly-content.js?v=382f06ff093b";
+import { esc, plot, marketChart, bindCrosshair } from "./platform-charts.js?v=382f06ff093b";
+import { price, intrinsic } from "./pricing.js?v=382f06ff093b";
 let ctx,
   timer = null,
   view = {

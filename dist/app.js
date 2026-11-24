@@ -1,18 +1,18 @@
-import { mountChain } from "./chain-ui.js";
-import { liquidityQuote } from "./chain-model.js";
+import { mountChain } from "./chain-ui.js?v=382f06ff093b";
+import { liquidityQuote } from "./chain-model.js?v=382f06ff093b";
 import {
   practiceLots,
   checkPracticeOrder,
   submitPracticeOrder,
   processPracticeLimits,
-} from "./chain-orders.js";
+} from "./chain-orders.js?v=382f06ff093b";
 import {
   renderPlatform,
   renderHourly,
   renderAdvanced,
   platformDashboard,
-} from "./platform-ui.js";
-import { renderLearning, renderChallenges } from "./training-ui.js";
+} from "./platform-ui.js?v=382f06ff093b";
+import { renderLearning, renderChallenges } from "./training-ui.js?v=382f06ff093b";
 import {
   money,
   quote,
@@ -20,7 +20,7 @@ import {
   payoff,
   risk,
   validateQuote,
-} from "./pricing.js";
+} from "./pricing.js?v=382f06ff093b";
 import {
   account,
   metrics,
@@ -28,10 +28,10 @@ import {
   reserved,
   fund,
   committed,
-} from "./accounting.js";
-import { preview, execute, close, stock } from "./execution.js";
-import { fresh, load, save, restore, parseCSV, csv, KEY } from "./storage.js";
-import { lessons, challenges } from "./lessons.js";
+} from "./accounting.js?v=382f06ff093b";
+import { preview, execute, close, stock } from "./execution.js?v=382f06ff093b";
+import { fresh, load, save, restore, parseCSV, csv, KEY } from "./storage.js?v=382f06ff093b";
+import { lessons, challenges } from "./lessons.js?v=382f06ff093b";
 let loaded;
 try {
   loaded = load(localStorage);

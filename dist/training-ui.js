@@ -1,7 +1,7 @@
-import {chartQuestions,patternTopics,patternCards} from './chart-content.js';
-import {dayLessons,glossary} from './daytrade-content.js';
-import {shuffle,grade,topicStats} from './training-engine.js';
-import {candles,chartTable} from './training-charts.js';
+import {chartQuestions,patternTopics,patternCards} from './chart-content.js?v=382f06ff093b';
+import {dayLessons,glossary} from './daytrade-content.js?v=382f06ff093b';
+import {shuffle,grade,topicStats} from './training-engine.js?v=382f06ff093b';
+import {candles,chartTable} from './training-charts.js?v=382f06ff093b';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let ctx;
 const source=s=>`${esc(s.pdf||s.file)} · PDF page ${s.pdfPage||s.pages?.join(', ')}${s.slide?' · slide '+esc(s.slide):''}${s.chapter?' · '+esc(s.chapter):''}${s.printed?' · printed '+esc(s.printed):''}`;

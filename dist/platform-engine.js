@@ -1,6 +1,6 @@
-import { liquidityQuote } from "./chain-model.js";
+import { liquidityQuote } from "./chain-model.js?v=382f06ff093b";
 // Deterministic educational simulation. No historical prices or broker fills.
-import { price, intrinsic, money } from "./pricing.js";
+import { price, intrinsic, money } from "./pricing.js?v=382f06ff093b";
 const newYorkClock = new Intl.DateTimeFormat("en-US", {
   timeZone: "America/New_York",
   year: "numeric",

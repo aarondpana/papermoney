@@ -5,9 +5,9 @@ import {
   orderedRows,
   moneyness,
   validDisplay,
-} from "./chain-model.js";
-import { modelQuote, defaults } from "./platform-engine.js";
-import { esc } from "./platform-charts.js";
+} from "./chain-model.js?v=382f06ff093b";
+import { modelQuote, defaults } from "./platform-engine.js?v=382f06ff093b";
+import { esc } from "./platform-charts.js?v=382f06ff093b";
 const sessions = new Map(),
   usd = (n) =>
     Number.isFinite(n)

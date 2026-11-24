@@ -1,13 +1,13 @@
-import { validateChainState } from "./chain-model.js";
+import { validateChainState } from "./chain-model.js?v=382f06ff093b";
 import {
   freshPlatform,
   validatePlatform,
   defaults,
-} from "./platform-engine.js";
-import { emptyLearning } from "./training-engine.js";
-import { migrateLearning, validateLearning } from "./training-storage.js";
-import { account } from "./accounting.js";
-import { strategies } from "./pricing.js";
+} from "./platform-engine.js?v=382f06ff093b";
+import { emptyLearning } from "./training-engine.js?v=382f06ff093b";
+import { migrateLearning, validateLearning } from "./training-storage.js?v=382f06ff093b";
+import { account } from "./accounting.js?v=382f06ff093b";
+import { strategies } from "./pricing.js?v=382f06ff093b";
 export const KEY = "papermoney.v1";
 export function fresh() {
   return {

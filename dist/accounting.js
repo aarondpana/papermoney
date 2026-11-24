@@ -1,4 +1,4 @@
-import {money} from './pricing.js';
+import {money} from './pricing.js?v=382f06ff093b';
 export function account(){return {cash:10000,capital:10000,realized:0,positions:[],stocks:{},ledger:[],history:[10000],executed:[]}}
 export const reserved=a=>money(a.positions.reduce((n,p)=>n+p.collateral,0));
 export const buyingPower=a=>money(a.cash-reserved(a));

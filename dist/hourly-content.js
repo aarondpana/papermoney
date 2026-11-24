@@ -1,5 +1,5 @@
-import { patternTopics } from "./chart-content.js";
-import { scenario, aggregate, seeded, modelQuote } from "./platform-engine.js";
+import { patternTopics } from "./chart-content.js?v=382f06ff093b";
+import { scenario, aggregate, seeded, modelQuote } from "./platform-engine.js?v=382f06ff093b";
 const rows = [
   [
     "Market structure and trend identification",

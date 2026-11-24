@@ -1,4 +1,4 @@
-import { indicators } from "./platform-engine.js";
+import { indicators } from "./platform-engine.js?v=382f06ff093b";
 export const esc = (s) =>
   String(s ?? "").replace(
     /[&<>"']/g,
